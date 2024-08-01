@@ -37,6 +37,7 @@ Arc.Component = class {
    * Mounts the component by calling componentDidMount.
    */
   mount() {
+    this.dom = this.createDomElement(this.render());
     this.componentDidMount();
   }
 

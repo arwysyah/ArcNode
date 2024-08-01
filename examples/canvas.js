@@ -16,7 +16,7 @@ class Canvas extends Arc.Component {
   }
 
   componentDidMount() {
-    console.log("did mount");
+    console.log("did mount canvas");
     this.builCanvas();
   }
   builCanvas() {
